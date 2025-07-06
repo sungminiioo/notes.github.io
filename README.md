@@ -1,1 +1,1 @@
-# notes.github.io
+# 공부 필기 내용
