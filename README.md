@@ -19,7 +19,7 @@
 
 ## 🔗 GitHub Pages
 
-👉 [정리된 내용 보기](https://yourusername.github.io/your-repo-name/)
+👉 [정리된 내용 보기](https://github.com/sungminiioo/notes.github.io.git)
 
 
 ## 🔗 Notion
