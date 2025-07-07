@@ -24,7 +24,7 @@
 
 ## 🔗 Notion
 
-👉 [정리된 내용 보기](https://yourusername.github.io/your-repo-name/)
+👉 [위클리 페이퍼](https://tabby-buffet-ccd.notion.site/_-228efd2547ae8015b9e4c8f5ae0039a9?source=copy_link)
 
 👉
 
