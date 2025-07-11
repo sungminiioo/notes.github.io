@@ -1,0 +1,100 @@
+# 레이아웃 설계 기본기 – Position, Flexbox, Grid 완전 정리
+
+### 📅 날짜  
+**2025.07.03 (목)**
+
+---
+
+### 📘 오늘 공부한 주제
+- CSS Position
+- z-index
+- Flexbox
+- Grid 레이아웃
+- 다양한 배치 방법
+
+---
+
+### 📝 핵심 개념 요약
+
+- `position`: 요소 위치를 자유롭게 제어 (`relative`, `absolute`, `fixed`, `sticky` 등)
+- `z-index`: 요소의 쌓이는 순서 지정 (숫자가 높을수록 위)
+- `flexbox`: 1차원 레이아웃(가로 or 세로 정렬)에 유용
+- `grid`: 2차원 레이아웃으로 정교한 구성 가능
+- `fr`, `minmax()`, `repeat()` 함수로 반응형/자동 레이아웃 가능
+
+---
+
+### 📌 z-index 정리
+
+| 속성       | 의미                  | 적용 조건               | 주의할 점                                 |
+|------------|-----------------------|--------------------------|--------------------------------------------|
+| `z-index`  | 요소의 쌓이는 순서 지정 | `position` 속성이 필요 | 숫자가 클수록 위, 같은 값은 코드 순서 우선 |
+
+---
+
+### 📌 Flexbox 핵심 속성 요약
+
+| 속성              | 설명                             | 주요 값                                            |
+|-------------------|----------------------------------|----------------------------------------------------|
+| `display`         | Flexbox 레이아웃 시작             | `flex`                                             |
+| `flex-direction`  | 아이템 배치 방향                  | `row`, `column`, `row-reverse`, `column-reverse`  |
+| `justify-content` | 주축(main axis) 정렬              | `flex-start`, `center`, `space-between` 등        |
+| `align-items`     | 교차축(cross axis) 정렬           | `flex-start`, `center`, `stretch` 등              |
+| `flex-wrap`       | 줄 바꿈 여부                      | `nowrap`, `wrap`, `wrap-reverse`                  |
+| `gap`             | 아이템 사이 간격                  | `gap: 10px 20px;` (세로 10px, 가로 20px)          |
+
+---
+
+### 📌 Grid 핵심 속성 요약
+
+| 속성                    | 설명                                  | 예시                            |
+|-------------------------|---------------------------------------|----------------------------------|
+| `display: grid`         | Grid 레이아웃 시작                     | -                                |
+| `grid-template-columns` | 열 개수 및 너비 설정                   | `200px 1fr 1fr`                  |
+| `grid-template-rows`    | 행 높이 설정                           | `100px auto`                     |
+| `grid-template-areas`   | 이름으로 영역 정의                     | `"header header" "sidebar main"`|
+| `grid-column`, `grid-row` | 특정 요소의 열/행 범위 설정          | `grid-column: 1 / 3`             |
+| `gap`                   | 행/열 간격 설정                        | `gap: 20px 10px;`                |
+| `repeat()`              | 동일 크기 열/행 반복                   | `repeat(3, 1fr)`                 |
+| `minmax()`              | 최소/최대 크기 지정                    | `minmax(200px, 1fr)`             |
+
+---
+
+### 💻 실습 내용 정리
+
+- `position: absolute`, `fixed`, `sticky` 각 속성 차이 실습
+- `z-index`로 시각적 계층 조절
+- Flexbox를 활용해 수평/수직 정렬 실습 (`justify-content`, `align-items`, `flex-wrap`)
+- `flex-grow`, `shrink`, `basis` 조합 실습
+- Grid 레이아웃으로 영역 나누기, `template-areas`, `repeat()`, `minmax()` 활용
+- 반응형 레이아웃 구현 실습
+
+---
+
+### ❗ 헷갈렸던 점 / 문제 해결
+
+- `sticky`가 작동하지 않던 문제 → 부모 요소의 높이 부족으로 인한 것
+- `z-index` 미적용 → 해당 요소에 `position`이 없어 우선 적용 안 됨
+- `grid-template-areas` 사용 시 이름이 연속되지 않으면 오류 발생
+
+---
+
+### 💡 느낀 점 / 배운 점
+
+- Flexbox는 1차원 배치에, Grid는 2차원 배치에 각각 특화되어 있음
+- `flex-grow`, `flex-shrink`, `flex-basis`를 통해 유연한 크기 설정이 가능
+- Grid는 `repeat()`와 `minmax()` 덕분에 실무에서 다양한 반응형 레이아웃 구현 가능
+
+---
+
+### 🏷️ 키워드 (태그)  
+`#position` `#flexbox` `#grid` `#sticky` `#z-index`  
+`#레이아웃` `#반응형` `#minmax` `#repeat`
+
+---
+
+### 📊 요약 테이블
+
+| 날짜        | 주제                   | 핵심 요약                                 | 실습 내용                              | 문제 해결 / 느낀 점                                               | 키워드 태그                                | 복습 필요 |
+|-------------|------------------------|--------------------------------------------|----------------------------------------|--------------------------------------------------------------------|--------------------------------------------|------------|
+| 2025-07-03  | 레이아웃 설계 기본기   | Position, Flexbox, Grid 차이 및 활용       | 요소 정렬, Flex/Grid 레이아웃 실습     | sticky, z-index, grid-area 오류 → 원인 및 해결 방식 파악           | #position #flexbox #grid #반응형 등        | ✅         |
