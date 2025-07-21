@@ -19,19 +19,16 @@
 
 ---
 
-### 📌 예시 코드
+### 💡 예제 코드
 
-```js
+```javascript
 function outer() {
-  const name = "JavaScript";
-
+  const a = 10;
   function inner() {
-    console.log(name);  // outer 함수의 변수에 접근
+    console.log(a); // 10 - 외부 변수 접근 가능
   }
-
-  return inner;
+  inner();
 }
+outer();
 
-const myFunc = outer();
-myFunc();  // "JavaScript" 출력
 
