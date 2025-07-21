@@ -18,6 +18,34 @@
 | 이벤트 핸들러 (브라우저) | 해당 DOM 요소 |
 | `call`, `apply`, `bind` 사용 | 지정된 객체 |
 
+# 💡 `this` 키워드 예제 코드
+
+```javascript
+// 일반 함수
+function show() {
+  console.log(this); // window (브라우저 환경)
+}
+show();
+
+// 객체 메서드
+const obj = {
+  name: 'Alice',
+  greet() {
+    console.log(this.name); // Alice
+  }
+};
+obj.greet();
+
+// 화살표 함수
+const arrowObj = {
+  name: 'Bob',
+  greet: () => {
+    console.log(this.name); // undefined (외부 this → 전역)
+  }
+};
+arrowObj.greet();
+
+
 ### ⚠️ 주의:
 
 - `this`는 **선언 시점이 아니라 호출 시점**에 결정됩니다.
