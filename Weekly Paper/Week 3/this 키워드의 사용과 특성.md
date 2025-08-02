@@ -69,8 +69,6 @@ arrowObj.greet();
 브라우저 환경에서는 `window`, Node.js 환경에서는 `global`이 됩니다.
 
 ```jsx
-javascript
-복사편집
 console.log(this); // 브라우저에서는 window 객체 출력
 
 ```
@@ -83,8 +81,6 @@ console.log(this); // 브라우저에서는 window 객체 출력
 - **엄격 모드('use strict')**: `undefined`.
 
 ```jsx
-javascript
-복사편집
 function regularFunction() {
     console.log(this); // window 또는 global 객체
 }
@@ -106,8 +102,6 @@ strictFunction();
 객체의 메서드로서 함수가 호출될 때, `this`는 해당 메서드를 호출한 객체에 바인딩됩니다.
 
 ```jsx
-javascript
-복사편집
 const obj = {
     name: 'JavaScript',
     getName: function() {
@@ -126,8 +120,6 @@ obj.getName(); // 'JavaScript'
 생성자 함수에서 `this`는 새로 생성되는 객체를 가리킵니다.
 
 ```jsx
-javascript
-복사편집
 function Person(name) {
     this.name = name;
 }
@@ -144,8 +136,6 @@ console.log(person.name); // 'John'
 이벤트 핸들러에서 `this`는 이벤트를 받는 요소를 가리킵니다.
 
 ```jsx
-javascript
-복사편집
 document.getElementById('myButton').addEventListener('click', function() {
     console.log(this); // 클릭된 버튼 요소
 });
@@ -159,8 +149,6 @@ document.getElementById('myButton').addEventListener('click', function() {
 화살표 함수는 자체적으로 `this`를 바인딩하지 않고, 생성된 **시점의 실행 컨텍스트**의 `this`를 "상속"받습니다.
 
 ```jsx
-javascript
-복사편집
 const obj = {
     name: 'JavaScript',
     regularFunction: function() {
