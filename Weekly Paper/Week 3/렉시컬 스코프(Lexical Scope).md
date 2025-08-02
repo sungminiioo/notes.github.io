@@ -51,8 +51,6 @@ outer();
 ### **렉시컬 스코프 예시**
 
 ```jsx
-javascript
-복사편집
 const outerVar = 'I am outside!';
 
 function outerFunction() {
@@ -83,8 +81,6 @@ outerFunction();
 클로저는 **함수와 그 함수가 선언될 당시의 렉시컬 환경의 조합**으로, 외부 함수의 변수를 내부 함수에서 접근할 수 있도록 합니다.
 
 ```jsx
-javascript
-복사편집
 function makeCounter() {
     let count = 0;
 
