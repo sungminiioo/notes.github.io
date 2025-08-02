@@ -5,8 +5,6 @@
 - **값을 메모이제이션** → 비싼 계산을 매번 다시 하지 않도록 최적화
 
 ```jsx
-javascript
-복사편집
 const expensiveValue = useMemo(() => heavyCalculation(num), [num]);
 
 ```
@@ -16,8 +14,6 @@ const expensiveValue = useMemo(() => heavyCalculation(num), [num]);
 - **함수를 메모이제이션** → 불필요한 함수 재생성과 자식 컴포넌트 리렌더링 방지
 
 ```jsx
-javascript
-복사편집
 const handleClick = useCallback(() => doSomething(), [dependency]);
 
 ```
