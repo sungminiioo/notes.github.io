@@ -25,5 +25,5 @@
 
 ## 🛠️ 사용 기술
 - Markdown  
-- GitHub Pages  
+- GitHub Pages
 - Notion
