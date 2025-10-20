@@ -103,6 +103,7 @@ app.delete('/subscriptions/:id', (req,res)=>{
 
 `#Express` `#NodeJS` `#API` `#GET` `#POST` `#PATCH` `#DELETE` `#HTTP` `#REST` `#req` `#res` 
 
-| 날짜 | 주제 | 핵심 요약 | 실습 내용 | 문제 해결 / 느낀 점 | 키워드 태그 | 복습 필요 |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2025-08-18 | Express 서버 기초 | Express 구조, 라우트, req/res, HTTP 메서드, 상태 코드 처리 | GET /hello, POST /sub, PATCH /sub/:id, DELETE /subscriptions/:id | DELETE 204 처리, PATCH updatedAt 갱신 확인 |  `#Express` `# nodeJS` `#REST` `#API`  | ✅ |
+| 날짜       | 주제             | 핵심 요약                                               | 실습 내용                                       | 문제 해결 / 느낀 점                               | 키워드 태그                             | 복습 필요 |
+|------------|------------------|--------------------------------------------------------|------------------------------------------------|------------------------------------------------|----------------------------------------|-----------|
+| 2025-08-18 | Express 서버 기초 | Express 구조, 라우트, req/res, HTTP 메서드, 상태 코드 처리 | GET /hello, POST /sub, PATCH /sub/:id, DELETE /subscriptions/:id | DELETE 204 처리, PATCH updatedAt 갱신 확인 | `#Express` `#nodeJS` `#REST` `#API`  | ✅        |
+
