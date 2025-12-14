@@ -137,5 +137,4 @@ function asyncHandler(handler) {
 
 | 날짜 | 주제 | 핵심 요약 | 실습 내용 | 문제 해결 / 느낀 점 | 키워드 태그 | 복습 필요 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2025-08-19 | Mongoose & MongoDB CRUD | 스키마, 모델, CRUD, 유효성 검사, 비동기 처리 | 스키마 정의, 시드 데이터 삽입, 조회, 생성, 수정, 삭제, asyncHandler | runValidators 옵션 확인, 없는 ID 404 처리 | `#MongoDB` `#Mongoose` `#CRUD` `#Schema` 
-  | ✅ |
+| 2025-08-19 | Mongoose & MongoDB CRUD | 스키마, 모델, CRUD, 유효성 검사, 비동기 처리 | 스키마 정의, 시드 데이터 삽입, 조회, 생성, 수정, 삭제, asyncHandler | runValidators 옵션 확인, 없는 ID 404 처리 | `#MongoDB` `#Mongoose` `#CRUD` `#Schema` | ✅ |
