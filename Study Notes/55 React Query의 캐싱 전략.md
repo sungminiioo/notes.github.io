@@ -108,5 +108,4 @@ const queryClient = useQueryClient();       // 컴포넌트 내부에서 사용
 
 | 날짜 | 주제 | 핵심 요약 | 실습 내용 | 문제 해결 / 느낀 점 | 키워드 태그 | 복습 필요 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2025-09-22 | React Query 캐싱 전략 | SWR 전략, fresh/stale/inactive/gc 개념, staleTime vs gcTime, 기본 설정 이해 | QueryClientProvider 설정, Lifecycle 다이어그램, queryClient vs useQueryClient 구분 | staleTime & gcTime 혼동 해결, QueryClient 생성 시점 구분 학습 | `#TanStack Query` `#React Query` `#SWR` `#staleTime` `#gcTime` 
-`#캐싱 전략` | ✅ |
+| 2025-09-22 | React Query 캐싱 전략 | SWR 전략, fresh/stale/inactive/gc 개념, staleTime vs gcTime, 기본 설정 이해 | QueryClientProvider 설정, Lifecycle 다이어그램, queryClient vs useQueryClient 구분 | staleTime & gcTime 혼동 해결, QueryClient 생성 시점 구분 학습 | `#TanStack Query` `#React Query` `#SWR` `#staleTime` `#gcTime` `#캐싱 전략` | ✅ |
