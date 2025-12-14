@@ -85,5 +85,4 @@ export default function ProductPage({ params, searchParams }) {
 | 날짜 | 주제 | 핵심 요약 | 실습 내용 | 문제 해결 / 느낀 점 | 키워드 태그 | 복습 필요 |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2025-09-08 | SEO & Metadata | 정적: metadata 객체
-동적:generate
-Metadata 함수 | 정적/동적 Metadata 코드 작성 | 부모 metadata 확장 vs 덮어쓰기 이해 | `#Nextjs` `#SEO` `#Metadata` `#OpenGraph` | ✅ |
+동적:generate Metadata 함수 | 정적/동적 Metadata 코드 작성 | 부모 metadata 확장 vs 덮어쓰기 이해 | `#Nextjs` `#SEO` `#Metadata` `#OpenGraph` | ✅ |
