@@ -111,6 +111,4 @@ export default function Page() {
 
 | 날짜 | 주제 | 핵심 요약 | 실습 내용 | 문제 해결 / 느낀 점 | 키워드 태그 | 복습 필요 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2025-08-25 | Next.js App Route | App Router 동작 방식, 서버/클라이언트 컴포넌트 구분, Link vs useRouter 차이 | Layout 적용, Link 예제, useRouter 예제 | Link & useRouter 차이 명확히 이해, 서버/클라이언트 구분 확실히 정리 | `#Next.js` `#AppRouter`
- `#라우팅` 
-`#서버컴포넌트` `#useRouter` | ✅ |
+| 2025-08-25 | Next.js App Route | App Router 동작 방식, 서버/클라이언트 컴포넌트 구분, Link vs useRouter 차이 | Layout 적용, Link 예제, useRouter 예제 | Link & useRouter 차이 명확히 이해, 서버/클라이언트 구분 확실히 정리 | `#Next.js` `#AppRouter` `#라우팅` `#서버컴포넌트` `#useRouter` | ✅ |
