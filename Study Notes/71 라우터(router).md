@@ -114,5 +114,4 @@ project/
 
 | 날짜 | 주제 | 핵심 요약 | 실습 내용 | 문제 해결 / 느낀 점 | 키워드 태그 | 복습 필요 |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2025-10-14 | Express 라우터 | app.route()와 express.Router()를 통한 라우트 중복 제거 및 구조화 | app.route(), express.Router(), router.use() 실습 | app.use() vs router.use() 구분이 헷갈렸으나 실습으로 해결 | `#Express` `#Router` `#Middleware` 
-`#라우터분리` `#NodeJS` | ✅ |
+| 2025-10-14 | Express 라우터 | app.route()와 express.Router()를 통한 라우트 중복 제거 및 구조화 | app.route(), express.Router(), router.use() 실습 | app.use() vs router.use() 구분이 헷갈렸으나 실습으로 해결 | `#Express` `#Router` `#Middleware` `#라우터분리` `#NodeJS` | ✅ |
