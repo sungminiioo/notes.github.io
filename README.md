@@ -19,7 +19,7 @@
 ## 🔗 링크
 - 👉 [GitHub Pages - 정리된 내용 보기](https://github.com/sungminiioo/notes.github.io.git)
 - 👉 [Notion - 위클리 페이퍼](https://tabby-buffet-ccd.notion.site/_-228efd2547ae8015b9e4c8f5ae0039a9?source=copy_link)
-- 👉 *[Notion- 강의 필기]*
+- 👉 *[Notion- 강의 필기](https://tabby-buffet-ccd.notion.site/228efd2547ae80d0bc87de1b27a4b220)
 
 ---
 
